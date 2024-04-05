@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: serif;
+    
+    
+}
+.Container{
+
+    height:100vh;
+    width:100%;
+    background:linear-gradient( 30deg,#9bfcf8,#589ad4,#ff0033);
+    justify-content: center;
+    display:flex;
+}
+.Signup{
+    width:25rem;
+    height:30rem;   
+    display:flex;
+    flex-direction:column;
+    margin:9% auto;
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-top:2.5px solid rgba(255,255,255,.2);
+    border-left:2.5Px solid rgba(255,255,255,.2);
+}
+.Signup ::placeholder{
+    color:wheat;
+}
+.Signup #email{
+    text-align: none;
+
+}
+.Signup h1{
+    letter-spacing:1.3px;
+    font-weight:900;
+    color: white;
+    padding-top:10px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+label{
+    width:50%;
+    color:white;
+    font-size:18px;
+    letter-spacing: .5px;
+    margin-top:30px;
+    margin-left:50px;
+    letter-spacing: 1px;;
+
+}
+.Signup input{
+    width:70%;
+    margin:3px auto;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom:1px solid rgba(255,255,255,.6);
+    border-radius:6px;
+    opacity:.8px;
+    
+    
+
+}
+.Signup a{
+    text-decoration:none;
+    color:white;
+    opacity:.9;
+}
+#Signup{
+    font-size:16px;
+    margin:3% auto;
+    margin-top:8%;
+    color:white;
+  
+    border:none;
+    outline:none;
+    width:30% ;
+    border-radius:30px;
+    background:rgba(255,255,255,.6);
+    
+
+}
+.Signup #accountlogin{
+    text-align: center;
+}
+@media only screen and(max-width:90%)
+{
+    form{
+        width:100% !important;
+
+    }
+    }
